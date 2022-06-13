@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+    tools:context=".grow">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="375dp"
+            android:layout_height="662dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.933"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="406dp"
+            android:layout_height="1009dp"
+            android:layout_marginBottom="360dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="375dp"
+            android:layout_height="662dp"
+            android:layout_marginBottom="932dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/b"
+            android:contentDescription="@string/app_name"
+            android:onClick="back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="167dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="108dp"
+            android:background="@drawable/aaaaaaaaaaaaaaaaaa"
+            android:text="المؤتمرات"
+            android:textColor="#34A699"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="167dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="108dp"
+            android:background="@drawable/asa"
+            android:onClick="ebtkr"
+            android:text="إبتكر "
+            android:textColor="#34A699"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="345dp"
+            android:layout_height="662dp"
+            app:srcCompat="@drawable/mmm"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="-12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="337dp"
+            android:layout_height="634dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="276dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/me" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="347dp"
+            android:layout_height="438dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="576dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/m" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="353dp"
+            android:layout_height="452dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="764dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mm" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="408dp"
+            android:background="@drawable/button"
+            android:onClick="e1"
+            android:text="إنضمــام"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="640dp"
+            android:background="@drawable/button"
+            android:onClick="e2"
+            android:text="إنضمــام"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="190dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="1036dp"
+            android:background="@drawable/button"
+            android:onClick="e4"
+            android:text="إنضمــام"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="169dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="844dp"
+            android:background="@drawable/button"
+            android:onClick="e3"
+            android:text="إنضمــام"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
